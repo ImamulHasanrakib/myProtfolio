@@ -1,0 +1,239 @@
+
+
+@media screen and (max-width:767px){
+
+    /* custom design  */
+     .container{
+        padding: 10px;
+     }
+ 
+    
+    .skills .main_content .skill_box{
+        column-gap: 20px;
+       
+      } 
+      
+      .skills .main_content .items{
+        padding: 10px;
+   
+      }
+
+      /* work design  */
+
+      #work .main_content .work_container{
+         grid-template-columns: repeat( 2, 1fr);
+         gap: 20px;
+        }
+
+        #work  .work_container .work_card{
+            padding: 10px;
+          
+          }
+
+            /* contact design  */
+
+             #contact .contact_info{
+                margin-top: 30px;
+                display: grid;
+                gap: 20px;
+                grid-template-columns: repeat( 2, 1fr) !important;
+              }
+
+
+                /* services design  */
+
+            .services_wrapper .main_content .content{
+                grid-template-columns: repeat(2 , 1fr) !important;
+                gap: 20px;
+                  padding-top: 20px;
+            }
+
+        
+            /* about design  */
+
+            .about_wrapper .main_content{
+                gap: 40px;
+                grid-template-columns: 1fr;
+              }
+           
+              .about_wrapper .main_content .about_info{
+                display: grid;
+                gap: 10px;
+                grid-template-columns: repeat( 3, 1fr);
+                margin-bottom: 30px;
+              }
+              .about_wrapper .main_content .about_data{
+                text-align: center;
+              }
+               
+
+              .about_wrapper .main_content .about_box{
+                background-color: var(--container-color);
+                padding: 10px;
+                border-radius: .3rem;
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+                text-align: center;
+              }
+
+             
+
+
+
+}
+
+@media screen and (max-width:630px){
+      /* skill design  */
+      .skills .main_content{
+        grid-template-columns : 1fr !important;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    } 
+
+    .skills .main_content .skill_box{
+        column-gap: 20px;
+         align-items: center;
+         justify-content: center;
+       
+      } 
+}
+
+
+@media screen and (max-width:576px){
+    .container {
+        max-width: 968px;
+        margin: 0  auto;
+        padding: 0 10px;
+      }
+      .section {
+        padding: 60px 0 20px;
+      }
+    
+    /* nav design  */
+
+    .nav .navbarnd a{
+        font-size:  20px;
+      }
+   
+      .nav .nav_menu{
+        padding: 15px 30px;
+      }
+
+      /* home design  */
+
+      .home_wrapper .home_img{
+        max-width: 220px;
+        width: 100%;
+        height: 220px;
+   
+      }
+      .home_wrapper .home_img  .banner_img{
+        max-width: 200px;
+        width: 100%;
+        height: 200px;
+  
+       
+      }
+      .home_wrapper .home_img::after{
+        max-width: 220px;
+        width: 100%;
+        height: 220px;
+       
+      }
+
+      .home_wrapper .home_social{
+        top: 80%;
+        left: 10px;
+        transform: translateY(-80%);
+        display: flex;
+        flex-direction: column;
+      }
+      .home_wrapper .home_social .social_link{
+        font-size: 20px;
+        padding: 3px;
+    
+      }
+      .home_wrapper .home_scroll{
+        right: -20px;
+
+        
+      }
+
+      /* about design  */
+
+      .about_wrapper .main_content .about_img img{
+        max-width: 300px;
+        width: 100%;
+        border-radius: 6px;
+      
+      }
+
+      .about_wrapper .main_content .about_info{
+
+        grid-template-columns: repeat( 2, 1fr);
+      
+      }
+
+      /* skill design  */
+
+      .skills .main_content .items{
+        padding: 10px;
+    
+      }
+      .skills .main_content .skill_box{
+        column-gap: 20px;
+
+      } 
+
+      /* services design  */
+
+   
+
+      /* work design  */
+
+      #work .main_content .work_container{
+        grid-template-columns: 1fr !important;
+        gap: 20px;
+       }
+
+             /* contact design  */
+             #contact .contact_info{
+                margin-top: 30px;
+                display: grid;
+                gap: 20px;
+                grid-template-columns: 1fr !important;
+              }
+  
+   
+      
+      
+      
+}
+
+@media screen and (max-width:450px){
+
+    .about_wrapper .main_content .about_info{
+        grid-template-columns:  1fr;
+      
+      }
+
+           /* services design  */
+
+           .services_wrapper .main_content .content{
+            grid-template-columns: 1fr !important;
+            gap: 20px;
+            padding-top: 20px;
+          }
+
+          .services_wrapper .services_card{
+            text-align: center;
+            }
+
+            .services_wrapper  .services_btn{
+              margin: auto;
+              
+            }
+
+    
+          
+}
